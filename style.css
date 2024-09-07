@@ -1,16 +1,21 @@
-.navbar{
-    background-color: hotpink;
-}
-
-.progress-bar {
-    background-color: hotpink;
-}
-
-.btn-primary{
-    background-color: hotpink;
-}
-
 img{
     width: 50px;
     height: 50px;
+}
+body{
+    background-color: pink;
+}
+button[type="submit"]{
+    margin-top: 10px;
+}
+.containerprojecten{
+    background-color: rgb(33, 37, 41);
+    margin: 100px;
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+.containerprojecten, h2{
+    color: white;
 }
