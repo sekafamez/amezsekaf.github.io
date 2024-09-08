@@ -12,23 +12,36 @@ body{
 button[type="submit"]{
     margin-top: 10px;
 }
-.containerprojecten{
+
+h2{
+    color: white;
+}
+
+.containera, .containerc, .containerprojecten{
     background-color: rgb(33, 37, 41);
-    margin: 50px;
     padding: 50px;
     border-radius: 15px;
     color: white;
 }
-
-.containerprojecten, h2{
-    color: white;
+.containerprojecten, .containera{
+    margin: 50px;
 }
 
 .containerc{
-    background-color: rgb(33, 37, 41);
     margin-left: 50px;
     margin-right: 50px;
-    padding: 50px;
-    border-radius: 15px;
-    color: white;
+}
+
+.naam-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.naam-container h3 + h3 {
+    margin-left: 10px;
+}
+
+.naam-container h3 {
+    white-space: nowrap;
 }
