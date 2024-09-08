@@ -1,21 +1,34 @@
-img{
+.navbar img:first-of-type{
     width: 50px;
     height: 50px;
 }
+#myself img:first-of-type{
+    width: 200px;
+    height: auto;
+}
 body{
-    background-color: pink;
+    background-color: rgb(126, 73, 123);
 }
 button[type="submit"]{
     margin-top: 10px;
 }
 .containerprojecten{
     background-color: rgb(33, 37, 41);
-    margin: 100px;
+    margin: 50px;
     padding: 50px;
     border-radius: 15px;
     color: white;
 }
 
 .containerprojecten, h2{
+    color: white;
+}
+
+.containerc{
+    background-color: rgb(33, 37, 41);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border-radius: 15px;
     color: white;
 }
