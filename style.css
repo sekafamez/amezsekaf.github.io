@@ -7,7 +7,7 @@
     height: auto;
 }
 body{
-    background-color: rgb(126, 73, 123);
+    background-color: #8797A8;
 }
 button[type="submit"]{
     margin-top: 10px;
@@ -18,7 +18,7 @@ h2{
 }
 
 .containera, .containerc, .containerprojecten{
-    background-color: rgb(33, 37, 41);
+    background-color: #212529;
     padding: 50px;
     border-radius: 15px;
     color: white;
@@ -44,4 +44,9 @@ h2{
 
 .naam-container h3 {
     white-space: nowrap;
+}
+
+#skills img{
+    width: auto;
+    height: 30px;
 }
