@@ -6,9 +6,6 @@
     width: 200px;
     height: auto;
 }
-body{
-    background-color: #8797A8;
-}
 button[type="submit"]{
     margin-top: 10px;
 }
@@ -49,4 +46,25 @@ h2{
 #skills img{
     width: auto;
     height: 30px;
+}
+
+body {
+    background-color: darkred;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+    background-size: 200% 100%;
+    animation: bar 7s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bar {
+    0% {
+        background-position: 0% 0;
+    }
+    
+    100% {
+        background-position: 100% 0;
+    }
 }
