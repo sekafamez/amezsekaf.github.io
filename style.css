@@ -41,7 +41,7 @@ h2{
 }
 
 body {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 
 .progress-bar {
@@ -71,11 +71,11 @@ body {
       height: 100%;
       position: absolute;
       z-index: -1;
-      border: 2px solid pink;
+      border: 2px solid #FFFD80;
       transition: all .25s ease-out;
     }
     &::before {
-      background-color: pink;
+      background-color: #FFFD80;
       top: -15px;
       left: -15px;
     }
